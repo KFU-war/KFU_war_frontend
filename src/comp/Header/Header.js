@@ -1,35 +1,15 @@
-import {testActionCreator} from "../../reducers/test_reducer";
-import {connect} from "react-redux";
 import React from "react";
-const ref = React.createRef();
+import LoginForm from "./LoginForm/LoginForm";
 
 let Header = (props) => {
     return (
         <header>
-            This is test page {props.testProp}
-            <input type={"text"} ref={ref}/>
-            <button onClick={(e) => {
-                let text = ref.current.value;
-                props.setNewProp(text);
-            }}/>
+            {props.isLogged
+                ? <>Logged</>
+                : <LoginForm login={props.login}/>
+            }
         </header>
     );
 }
 
-let mapStateToProps = (state) => {
-    return {
-        testProp : state.test.testProp
-    }
-}
-
-let mapDispatchToProps = (dispatch) => {
-    return {
-        setNewProp : (text) => {
-            dispatch(testActionCreator(text));
-        }
-    }
-}
-
-let connected = connect(mapStateToProps, mapDispatchToProps)(Header);
-
-export default connected;
+export default Header;

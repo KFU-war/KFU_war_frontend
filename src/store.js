@@ -1,9 +1,9 @@
-import {test_reducer} from "./reducers/test_reducer";
 import {applyMiddleware, combineReducers, compose, createStore} from "redux";
 import thunk from "redux-thunk";
+import {loginReducer} from "./reducers/loginReducer";
 
 const reducers = combineReducers({
-    test : test_reducer
+    login : loginReducer
 });
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
