@@ -52,4 +52,4 @@ const loginThunk = (login, password) => {
     }
 }
 
-export {loginReducer, loginThunk}
+export {loginReducer, loginThunk, initialState, setLoggedActionCreator, setTokenCreator}
