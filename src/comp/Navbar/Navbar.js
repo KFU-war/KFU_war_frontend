@@ -6,16 +6,16 @@ let Navbar = (props) => {
     return(
         <div className={classes.Navbar}>
             <button className={classes.btn}>
-                <NavLink to={"/"} active={classes.active}>Главная</NavLink>
+                <NavLink to={"/"} exact className={classes.link} activeClassName={classes.active}>Главная</NavLink>
             </button>
             <button className={classes.btn}>
-                <NavLink to={"/people"} active={classes.active}>Сотрудники и студенты</NavLink>
+                <NavLink to={"/people"} className={classes.link} activeClassName={classes.active}>Сотрудники и студенты</NavLink>
             </button>
             <button className={classes.btn}>
-                <NavLink to={"/time"} active={classes.active}>Хронология событий</NavLink>
+                <NavLink to={"/time"} className={classes.link} activeClassName={classes.active}>Хронология событий</NavLink>
             </button>
             <button className={classes.btn}>
-                <NavLink to={"/science"}>Научная деятельность</NavLink>
+                <NavLink to={"/science"}className={classes.link} activeClassName={classes.active}>Научная деятельность</NavLink>
             </button>
         </div>
     );

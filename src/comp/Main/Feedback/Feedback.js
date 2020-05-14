@@ -4,7 +4,7 @@ import classes from "./Feedback.module.css";
 let Feedback = (props) => {
     return (
         <div className={classes.Feedback}>
-            <form onSubmit={props.submit}>
+            <form onSubmit={props.submit} className={classes.form}>
                 <div className={classes.col}>
                     <input name={"name"} type={"text"} placeholder={"Имя"}/>
                     <input name={"surname"} type={"text"} placeholder={"Фамилия"}/>

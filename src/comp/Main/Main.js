@@ -12,7 +12,7 @@ let Main = () => {
                 alt={"main picture"}
                 heading={"Главная"}
                 desc={"Это наша веб-платформа, посвященная 75-летию Победы"}
-                link={"#"}
+                link={"/"}
                 linkDesc={"Читать подробнее"}
             />
             <Section
@@ -21,7 +21,7 @@ let Main = () => {
                 alt={"main picture"}
                 heading={"Люди"}
                 desc={"Это наша веб-платформа, посвященная 75-летию Победы"}
-                link={"#"}
+                link={"/people"}
                 linkDesc={"Читать подробнее"}
             />
             <Section
@@ -30,7 +30,7 @@ let Main = () => {
                 alt={"main picture"}
                 heading={"Хронология"}
                 desc={"Это наша веб-платформа, посвященная 75-летию Победы"}
-                link={"#"}
+                link={"/time"}
                 linkDesc={"Читать подробнее"}
             />
             <Section
@@ -39,7 +39,7 @@ let Main = () => {
                 alt={"main picture"}
                 heading={"Наука"}
                 desc={"Это наша веб-платформа, посвященная 75-летию Победы"}
-                link={"#"}
+                link={"/science"}
                 linkDesc={"Читать подробнее"}
             />
             <Feedback submit={console.log}/>

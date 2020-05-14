@@ -1,16 +1,16 @@
 .Navbar{
-
+    height: fit-content;
 }
 
 .btn{
-
+    padding: 0px 0px;
 }
 
 .active{
-    color: red;
+    background-color: red;
 }
 
-a{
+.link{
     text-decoration: none;
     color: black;
     width: 100%;

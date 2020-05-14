@@ -1,9 +1,16 @@
 .Feedback{
-
+    display: flex;
+    flex-direction: column;
 }
 
 .infoBlock{
+    display: flex;
+    flex-direction: row;
+}
 
+.form{
+    display: flex;
+    flex-direction: row;
 }
 
 .info{
@@ -11,7 +18,8 @@
 }
 
 .logos{
-
+    display: flex;
+    flex-direction: row;
 }
 
 .logo{
@@ -19,5 +27,6 @@
 }
 
 .col{
-
+    display: flex;
+    flex-direction: column;
 }

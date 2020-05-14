@@ -6,6 +6,7 @@ import Main from "./comp/Main/Main";
 import AdminPanelContainer from "./comp/AdminPanel/AdminPanelContainer";
 import PageContainer from "./comp/Page/PageContainer";
 import Header from "./comp/Header/Header";
+import classes from "./comp/Header/Header.module.css";
 
 function App() {
     let pages = ["/people", "/time", "/science"].map((link) => {
@@ -20,6 +21,7 @@ function App() {
         <BrowserRouter>
             <Provider store={store}>
                 <Header/>
+                <div className={classes.spacing}/>
                 <Route path={"/"} exact>
                     <Main/>
                 </Route>
