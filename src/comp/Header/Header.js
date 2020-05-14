@@ -5,8 +5,11 @@ let Header = (props) => {
     return (
         <header>
             {props.isLogged
-                ? <>Logged</>
-                : <LoginForm login={props.login}/>
+                ? <>
+                    Logged
+                    <button onClick={props.logout}>LOG OUT</button>
+                  </>
+                : <LoginForm login={props.login} isFetching={props.isFetching}/>
             }
         </header>
     );

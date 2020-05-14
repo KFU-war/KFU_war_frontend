@@ -13,9 +13,9 @@ let LoginForm = (props) => {
     }
     return (
         <form onSubmit={submit}>
-            <input ref={loginRef} type={"text"}/>
-            <input ref={passRef} type={"password"}/>
-            <button type="submit">Login</button>
+            <input ref={loginRef} type={"text"} disabled={props.isFetching}/>
+            <input ref={passRef} type={"password"} disabled={props.isFetching}/>
+            <button type="submit" disabled={props.isFetching}>Login</button>
         </form>
     );
 }

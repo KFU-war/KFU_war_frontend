@@ -1,7 +1,7 @@
 import {connect} from "react-redux";
 import Header from "./Header";
 import React from "react";
-import {loginThunk} from "../../reducers/loginReducer";
+import {loginThunk, logoutThunk} from "../../reducers/loginReducer";
 
 let HeaderContainer = (props) => {
     let login = (data) => {
@@ -14,7 +14,8 @@ let HeaderContainer = (props) => {
 
 let mapStateToProps = (state) => {
     return {
-        isLogged : state.login.isLogged
+        isLogged : state.login.isLogged,
+        isFetching : state.login.isFetching
     }
 }
 
@@ -22,6 +23,9 @@ let mapDispatchToProps = (dispatch) => {
     return {
         login : (login, password) => {
             dispatch(loginThunk(login, password))
+        },
+        logout : () => {
+            dispatch(logoutThunk())
         }
     }
 }

@@ -1,14 +1,16 @@
-import api from "../DAL/api";
+import createAPI from "../DAL/api";
 
 let token =  window.localStorage.getItem("token");
 
 let initialState = {
     token : token,
-    isLogged : token != null
+    isLogged : token != null,
+    isFetching : false
 }
 
 const SET_LOGGED = "LOGIN/SET_LOGGED";
 const SET_TOKEN = "LOGIN/SET_TOKEN";
+const TOGGLE_FETCH = "LOGIN/FETCH";
 
 const loginReducer = (state = initialState, action) => {
     let stateCopy = {...state};
@@ -19,6 +21,10 @@ const loginReducer = (state = initialState, action) => {
         }
         case SET_TOKEN : {
             stateCopy.token = action.token;
+            break;
+        }
+        case TOGGLE_FETCH : {
+            stateCopy.isFetching = !stateCopy.isFetching;
             break;
         }
     }
@@ -39,8 +45,16 @@ const setTokenCreator = (token) => {
     }
 }
 
+const toggleFetchingCreator = () => {
+    return {
+        type : TOGGLE_FETCH
+    }
+}
+
 const loginThunk = (login, password) => {
     return (dispatch) => {
+        let api = createAPI();
+        dispatch(toggleFetchingCreator());
         api.post("login", {
             login : login,
             password : password
@@ -48,8 +62,17 @@ const loginThunk = (login, password) => {
             window.localStorage.setItem("token", token);
             dispatch(setLoggedActionCreator(true));
             dispatch(setTokenCreator(token));
+            dispatch(toggleFetchingCreator());
         });
     }
 }
 
-export {loginReducer, loginThunk, initialState, setLoggedActionCreator, setTokenCreator}
+const logoutThunk = () => {
+    return (dispatch) => {
+        window.localStorage.clear();
+        dispatch(setTokenCreator(null));
+        dispatch(setLoggedActionCreator(false));
+    }
+}
+
+export {loginReducer, loginThunk, initialState, setLoggedActionCreator, setTokenCreator, logoutThunk}
