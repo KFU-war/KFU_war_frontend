@@ -1,28 +1,21 @@
 import React from "react";
 import classes from "./Navbar.module.css";
-import $ from "jquery";
-
-let click = (e) => {
-    e.preventDefault();
-    let id  = e.target.getAttribute("href"),
-        top = $(id).offset().top;
-    $('body,html').animate({scrollTop: top}, 800);
-}
+import {NavLink} from "react-router-dom";
 
 let Navbar = (props) => {
     return(
         <div className={classes.Navbar}>
             <button className={classes.btn}>
-                <a href={"#main"} onClick={click}>Главная</a>
+                <NavLink to={"/"} active={classes.active}>Главная</NavLink>
             </button>
             <button className={classes.btn}>
-                <a href={"#people"} onClick={click}>Сотрудники и студенты</a>
+                <NavLink to={"/people"} active={classes.active}>Сотрудники и студенты</NavLink>
             </button>
             <button className={classes.btn}>
-                <a href={"#time"} onClick={click}>Хронология событий</a>
+                <NavLink to={"/time"} active={classes.active}>Хронология событий</NavLink>
             </button>
             <button className={classes.btn}>
-                <a href={"#science"} onClick={click}>Научная деятельность</a>
+                <NavLink to={"/science"}>Научная деятельность</NavLink>
             </button>
         </div>
     );

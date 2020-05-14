@@ -3,7 +3,8 @@ import axios from "axios";
 const CORS = "https://cors-anywhere.herokuapp.com/";
 const BASE_URL = "https://kfu-war.herokuapp.com/";
 
-const createAPI = (token = window.localStorage.getItem('token')) => {
+const createAPI = () => {
+    let token = window.localStorage.getItem('token');
     if (token == null){
         token = "null"
     }
