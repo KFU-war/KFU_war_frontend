@@ -58,6 +58,8 @@ const loginThunk = (login, password) => {
         api.post("login", {
             login : login,
             password : password
+        }).catch(resp => {
+            dispatch(toggleFetchingCreator());
         }).then(resp => resp.data.value).then(token => {
             window.localStorage.setItem("token", token);
             dispatch(setLoggedActionCreator(true));

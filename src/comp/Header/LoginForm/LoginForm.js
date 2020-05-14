@@ -9,7 +9,7 @@ let LoginForm = (props) => {
         props.login({
             login : login,
             password : password
-        })
+        });
     }
     return (
         <form onSubmit={submit}>
