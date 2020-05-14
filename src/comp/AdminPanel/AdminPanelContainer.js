@@ -1,21 +1,22 @@
 import {connect} from "react-redux";
-import Header from "./Header";
 import React from "react";
 import {loginThunk, logoutThunk} from "../../reducers/loginReducer";
+import AdminPanel from "./AdminPanel";
 
-let HeaderContainer = (props) => {
+let AdminPanelContainer = (props) => {
     let login = (data) => {
         props.login(data.login, data.password);
     }
     return (
-        <Header {...props} login={login}/>
+        <AdminPanel{...props} login={login}/>
     )
 }
 
 let mapStateToProps = (state) => {
     return {
         isLogged : state.login.isLogged,
-        isFetching : state.login.isFetching
+        isFetching : state.login.isFetching,
+        error : state.login.errorMessage
     }
 }
 
@@ -30,4 +31,4 @@ let mapDispatchToProps = (dispatch) => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(HeaderContainer);
+export default connect(mapStateToProps, mapDispatchToProps)(AdminPanelContainer);

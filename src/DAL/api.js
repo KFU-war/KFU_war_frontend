@@ -1,16 +1,17 @@
 import axios from "axios";
 
-const BASE_URL = "https://cors-anywhere.herokuapp.com/https://kfu-war.herokuapp.com/";
+const CORS = "https://cors-anywhere.herokuapp.com/";
+const BASE_URL = "https://kfu-war.herokuapp.com/";
 
 const createAPI = (token = window.localStorage.getItem('token')) => {
     if (token == null){
         token = "null"
     }
-    return  axios.create({
+    return axios.create({
         baseURL : BASE_URL,
         headers : {
+            "AUTH" : token,
             "Content-Type" : "application/json",
-            "token" : token,
         }
     });
 }

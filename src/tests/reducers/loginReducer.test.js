@@ -1,4 +1,4 @@
-import {initialState, loginReducer, setLoggedActionCreator, setTokenCreator} from "../../reducers/loginReducer";
+import {initialState, loginReducer, setLoggedCreator, setTokenCreator} from "../../reducers/loginReducer";
 
 const reducer = loginReducer;
 let initState = initialState;
@@ -13,7 +13,7 @@ it('incorrect action', () => {
 });
 
 it('correct set login', () => {
-    let action = setLoggedActionCreator(true);
+    let action = setLoggedCreator(true);
     let expected = {...initState};
     expected.isLogged = true;
     let state = reducer(initState, action);

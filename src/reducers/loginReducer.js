@@ -1,16 +1,19 @@
 import createAPI from "../DAL/api";
+import signIn from "../DAL/loginAPI/loginAPI";
 
 let token =  window.localStorage.getItem("token");
 
 let initialState = {
     token : token,
     isLogged : token != null,
-    isFetching : false
+    isFetching : false,
+    errorMessage : ""
 }
 
 const SET_LOGGED = "LOGIN/SET_LOGGED";
 const SET_TOKEN = "LOGIN/SET_TOKEN";
 const TOGGLE_FETCH = "LOGIN/FETCH";
+const SET_ERROR = "LOGIN/ERROR"
 
 const loginReducer = (state = initialState, action) => {
     let stateCopy = {...state};
@@ -27,11 +30,15 @@ const loginReducer = (state = initialState, action) => {
             stateCopy.isFetching = !stateCopy.isFetching;
             break;
         }
+        case SET_ERROR : {
+            stateCopy.errorMessage = action.error;
+            break;
+        }
     }
     return stateCopy;
 }
 
-const setLoggedActionCreator = (isLogged) => {
+const setLoggedCreator = (isLogged) => {
     return {
         type : SET_LOGGED,
         isLogged : isLogged
@@ -45,6 +52,13 @@ const setTokenCreator = (token) => {
     }
 }
 
+const setErrorCreator = (error) => {
+    return {
+        type : SET_ERROR,
+        error : error
+    }
+}
+
 const toggleFetchingCreator = () => {
     return {
         type : TOGGLE_FETCH
@@ -53,17 +67,18 @@ const toggleFetchingCreator = () => {
 
 const loginThunk = (login, password) => {
     return (dispatch) => {
-        let api = createAPI();
         dispatch(toggleFetchingCreator());
-        api.post("login", {
-            login : login,
-            password : password
-        }).catch(resp => {
-            dispatch(toggleFetchingCreator());
-        }).then(resp => resp.data.value).then(token => {
+        signIn(login, password).then(resp => {
+            let data = resp.data;
+            let token = data.value;
             window.localStorage.setItem("token", token);
-            dispatch(setLoggedActionCreator(true));
+            dispatch(setLoggedCreator(true));
             dispatch(setTokenCreator(token));
+            dispatch(toggleFetchingCreator());
+        }).catch(err => {
+            let response = err.response;
+            let msg = response.data.message;
+            dispatch(setErrorCreator(msg));
             dispatch(toggleFetchingCreator());
         });
     }
@@ -73,8 +88,8 @@ const logoutThunk = () => {
     return (dispatch) => {
         window.localStorage.clear();
         dispatch(setTokenCreator(null));
-        dispatch(setLoggedActionCreator(false));
+        dispatch(setLoggedCreator(false));
     }
 }
 
-export {loginReducer, loginThunk, initialState, setLoggedActionCreator, setTokenCreator, logoutThunk}
+export {loginReducer, loginThunk, initialState, setLoggedCreator, setTokenCreator, logoutThunk, setErrorCreator}
