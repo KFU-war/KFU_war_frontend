@@ -1,4 +1,3 @@
-import createAPI from "../DAL/api";
 import signIn from "../DAL/loginAPI/loginAPI";
 
 let token =  window.localStorage.getItem("token");

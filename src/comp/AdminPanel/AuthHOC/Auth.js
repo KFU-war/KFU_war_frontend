@@ -3,6 +3,7 @@ import React from "react";
 import {Redirect} from "react-router-dom";
 import AuthHeader from "../AuthHeader/AuthHeader";
 import AuthFooter from "../AuthFooter/AuthFooter";
+import loginSelector from "../../../selectors/loginSelector";
 
 let Auth = (Component) => {
    let auth = (props) => {
@@ -23,7 +24,7 @@ let Auth = (Component) => {
 
    let mapStateToProps = (state) => {
        return {
-           isLogged : state.login.isLogged
+           isLogged : loginSelector.getLogged(state)
        }
    }
 

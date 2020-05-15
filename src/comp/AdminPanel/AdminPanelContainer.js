@@ -2,6 +2,7 @@ import {connect} from "react-redux";
 import React from "react";
 import {loginThunk, logoutThunk} from "../../reducers/loginReducer";
 import AdminPanel from "./AdminPanel";
+import loginSelector from "../../selectors/loginSelector";
 
 let AdminPanelContainer = (props) => {
     let login = (data) => {
@@ -14,9 +15,9 @@ let AdminPanelContainer = (props) => {
 
 let mapStateToProps = (state) => {
     return {
-        isLogged : state.login.isLogged,
-        isFetching : state.login.isFetching,
-        error : state.login.errorMessage
+        isLogged : loginSelector.getLogged(state),
+        isFetching : loginSelector.getFetching(state),
+        error : loginSelector.getErrorMessage(state)
     }
 }
 
