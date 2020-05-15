@@ -18,24 +18,36 @@ let SourceEdit = (props) => {
         setIsOpen(false);
     }
 
+    let openEdit = () => {
+        openModal();
+    }
+
+    let openCreate = () => {
+        openModal();
+    }
+
     return(
         <>
             <div className={classes2.sourceWrapper}>
                 {source}
             </div>
             <div className={classes.articleToolbar}>
-                <button className={classes.editBtn} onClick={openModal}>
+                <button className={classes.editBtn} onClick={openEdit}>
                     Редактировать
                 </button>
                 <button className={classes.articleToolbar} onClick={props.archive}>
                     Архивировать
+                </button>
+                <button className={classes.addBtn} onClick={openCreate}>
+                    Добавить новый источник
                 </button>
                 <SourcesModal
                     isOpen={modalIsOpen}
                     onRequestClose={closeModal}
                     style={customStyles}
                     contentLabel="Example Modal"
-                    close={closeModal} mode={"Редактирование"}
+                    close={closeModal}
+                    finish={props.edit}
                 />
             </div>
         </>

@@ -1,5 +1,4 @@
 import Modal from "react-modal";
-import customStyles from "./ModalStyle";
 import ModalForm from "./ModalForm/ModalForm";
 import React from "react";
 
@@ -8,7 +7,7 @@ let SourcesModal = (props) => {
         <Modal
             {...props}
         >
-            <ModalForm close={props.close} mode={props.mode}/>
+            <ModalForm close={props.close} data={props.data} finish={props.finish}/>
         </Modal>
     )
 }

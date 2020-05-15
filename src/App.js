@@ -8,6 +8,7 @@ import PageContainer from "./comp/Page/PageContainer";
 import Header from "./comp/Header/Header";
 import CategoriesSelectContainer from "./comp/AdminPanel/Categories/Select/CategoriesSelectContainer";
 import CategoryEditContainer from "./comp/AdminPanel/Categories/Edit/CategoryEditContainer";
+import {RedactorContainer} from "./comp/AdminPanel/Redactor/RedactorContainer";
 
 function App() {
     let pages = ["/people", "/time", "/science"].map((link) => {
@@ -34,6 +35,9 @@ function App() {
                 </Route>
                 <Route path={"/select/:name"}>
                     <CategoryEditContainer/>
+                </Route>
+                <Route path={"/redactor"}>
+                    <RedactorContainer/>
                 </Route>
                 {pages}
             </Provider>

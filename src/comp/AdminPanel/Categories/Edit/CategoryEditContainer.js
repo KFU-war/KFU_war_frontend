@@ -4,12 +4,19 @@ import Auth from "../../AuthHOC/Auth";
 import {withRouter} from "react-router-dom";
 import categorySelector from "../../../../selectors/categorySelector";
 import {connect} from "react-redux";
+import {setTypeCreator} from "../../../../reducers/redactorReducer";
+import {CREATE_TYPE} from "../../Redactor/RedactorContainer";
 
 let CategoryEditContainer = (props) => {
     let name = props.match.params.name;
+    let create = () => {
+        props.setCreateType();
+    }
     return(
-        <>
-            <CategoryEdit name={name} {...props.category}/>
+        <> {!props.isFetching
+            ? <CategoryEdit name={name} {...props.category} create={create}/>
+            : <></>
+            }
         </>
     )
 }
@@ -21,4 +28,12 @@ let mapStateToProps = (state) => {
     }
 }
 
-export default Auth(withRouter(connect(mapStateToProps)(CategoryEditContainer)));
+let mapDispatchToProps = (dispatch) => {
+    return{
+        setCreateType : () => {
+            dispatch(setTypeCreator(CREATE_TYPE))
+        }
+    }
+}
+
+export default Auth(withRouter(connect(mapStateToProps, mapDispatchToProps)(CategoryEditContainer)));
