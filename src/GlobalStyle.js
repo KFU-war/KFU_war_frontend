@@ -50,6 +50,10 @@ const GlobalStyle = createGlobalStyle`
     font-weight: bold;
 }
 
+html, body{
+    overflow-x : hidden;
+}
+
 html, body, button, input {
   margin: 0;
   font-family: 'Mont', serif;

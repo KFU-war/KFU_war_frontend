@@ -15,7 +15,7 @@ function App() {
     let pages = ["/people", "/time", "/science"].map((link) => {
         return (
             <Route path={link}>
-                <Header/>
+                <Header name={link}/>
                 <PageContainer/>
             </Route>
         );
@@ -26,7 +26,7 @@ function App() {
             <Provider store={store}>
                 <GlobalStyle/>
                 <Route path={"/"} exact>
-                    <Header/>
+                    <Header name={"/"}/>
                     <Main/>
                 </Route>
                 <Route path={"/admin"}>

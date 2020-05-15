@@ -12,5 +12,6 @@ infographics primary - 70px
 
 accent - #992934
 infographics color - #80222c
+gray - #333333
 
 
