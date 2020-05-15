@@ -19,7 +19,7 @@ function App() {
         );
     })
   return (
-    <div className="App">
+    <div className="App" id={"App"}>
         <BrowserRouter>
             <Provider store={store}>
                 <Route path={"/"} exact>
