@@ -14,10 +14,17 @@ let LoginForm = (props) => {
         });
     }
     return (
-        <form onSubmit={submit}>
-            <input ref={loginRef} type={"text"} disabled={props.isFetching}/>
-            <input ref={passRef} type={"password"} disabled={props.isFetching}/>
-            <button type="submit" disabled={props.isFetching}>Login</button>
+        <form onSubmit={submit} className={classes.LoginForm}>
+            <h3 className={classes.heading}>Вход</h3>
+            <label>
+                Логин
+                <input ref={loginRef} type={"text"} disabled={props.isFetching}/>
+            </label>
+            <label>
+                Пароль
+                <input ref={passRef} type={"password"} disabled={props.isFetching}/>
+            </label>
+            <button type="submit" disabled={props.isFetching}>Войти</button>
             {props.msg === ""
                 ? <></>
                 : <div className={classes.error}>

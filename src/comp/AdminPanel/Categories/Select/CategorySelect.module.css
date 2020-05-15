@@ -1,0 +1,29 @@
+.CategorySelect{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heading{
+
+}
+
+.categories{
+    width: fit-content;
+    text-align: left;
+}
+
+.categoriesWrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}

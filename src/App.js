@@ -6,12 +6,14 @@ import Main from "./comp/Main/Main";
 import AdminPanelContainer from "./comp/AdminPanel/AdminPanelContainer";
 import PageContainer from "./comp/Page/PageContainer";
 import Header from "./comp/Header/Header";
-import classes from "./comp/Header/Header.module.css";
+import CategoriesSelectContainer from "./comp/AdminPanel/Categories/Select/CategoriesSelectContainer";
+import CategoryEditContainer from "./comp/AdminPanel/Categories/Edit/CategoryEditContainer";
 
 function App() {
     let pages = ["/people", "/time", "/science"].map((link) => {
         return (
             <Route path={link}>
+                <Header/>
                 <PageContainer/>
             </Route>
         );
@@ -20,13 +22,18 @@ function App() {
     <div className="App">
         <BrowserRouter>
             <Provider store={store}>
-                <Header/>
-                <div className={classes.spacing}/>
                 <Route path={"/"} exact>
+                    <Header/>
                     <Main/>
                 </Route>
                 <Route path={"/admin"}>
                     <AdminPanelContainer/>
+                </Route>
+                <Route path={"/select"} exact>
+                    <CategoriesSelectContainer/>
+                </Route>
+                <Route path={"/select/:name"}>
+                    <CategoryEditContainer/>
                 </Route>
                 {pages}
             </Provider>

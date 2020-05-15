@@ -1,3 +1,55 @@
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
 .error{
 
+}
+
+.heading{
+
+}
+
+input{
+    margin-left: 10px;
+}
+
+label{
+    margin: 10px 10px;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+input, button{
+    border-radius: 5px;
+    outline: none;
+    padding: 5px 5px;
+}
+
+button[type="submit"]{
+    text-transform: uppercase;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+button[type="submit"]:hover{
+    background-color: deepskyblue;
+}
+
+button[disabled]{
+    cursor: not-allowed;
+    background-color: gray;
+}
+
+button[disabled]:hover{
+    background-color: gray;
 }

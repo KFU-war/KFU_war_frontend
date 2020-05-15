@@ -4,9 +4,12 @@ import Navbar from "../Navbar/Navbar";
 
 let Header = (props) => {
     return (
-        <header className={classes.Header}>
-            <Navbar/>
-        </header>
+        <>
+            <header className={classes.Header}>
+                <Navbar/>
+            </header>
+            <div className={classes.spacing}/>
+        </>
     );
 }
 
