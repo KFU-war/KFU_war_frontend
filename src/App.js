@@ -9,6 +9,7 @@ import Header from "./comp/Header/Header";
 import CategoriesSelectContainer from "./comp/AdminPanel/Categories/Select/CategoriesSelectContainer";
 import CategoryEditContainer from "./comp/AdminPanel/Categories/Edit/CategoryEditContainer";
 import {RedactorContainer} from "./comp/AdminPanel/Redactor/RedactorContainer";
+import GlobalStyle from "./GlobalStyle";
 
 function App() {
     let pages = ["/people", "/time", "/science"].map((link) => {
@@ -23,6 +24,7 @@ function App() {
     <div className="App" id={"App"}>
         <BrowserRouter>
             <Provider store={store}>
+                <GlobalStyle/>
                 <Route path={"/"} exact>
                     <Header/>
                     <Main/>

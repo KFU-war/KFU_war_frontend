@@ -14,7 +14,6 @@ let RedactorContainer = (props) => {
         console.log(data);
         props.setArticle(data);
     }
-    debugger;
     return (
         <>
             {(props.type === EDIT_TYPE && id) || (props.type === CREATE_TYPE)
