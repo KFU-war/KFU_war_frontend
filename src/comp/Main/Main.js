@@ -10,6 +10,7 @@ import classes from "./Main.module.css"
 import FirstSection from "./FirstSection/FirstSection";
 import DescSection from "./DescSection/DescSection";
 import VideoSection from "./VideoSection/VideoSection";
+import Infographics from "./Infographics/Infographics";
 
 let Main = () => {
     let lorem = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
@@ -27,6 +28,7 @@ let Main = () => {
                 link={"/people"}
                 linkDesc={"Читать подробнее"}
             />
+            <Infographics/>
             <Section
                 id={"science"}
                 src={science}
@@ -34,7 +36,6 @@ let Main = () => {
                 heading={"Научная  деятельность в казанском университете в годы войны"}
                 desc={lorem}
                 link={"/science"}
-                height={"964px"}
                 linkDesc={"Читать подробнее..."}
             />
             <Section
