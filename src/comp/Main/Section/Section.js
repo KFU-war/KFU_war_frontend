@@ -4,7 +4,9 @@ import {NavLink} from "react-router-dom";
 
 let Section = (props) => {
     return(
-        <section className={classes.Section} id={props.id}>
+        <section className={classes.Section} id={props.id} style={{
+            height : props.height
+        }}>
             <img src={props.src} alt={props.alt}/>
             <div className={classes.sectionContent}>
                 <h2 className={classes.heading}>{props.heading}</h2>

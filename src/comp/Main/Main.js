@@ -4,6 +4,7 @@ import Feedback from "./Feedback/Feedback";
 
 import science from '../../assets/img/science.png';
 import people from '../../assets/img/people.png';
+import sources_back from "../../assets/img/sources_background.png";
 
 import classes from "./Main.module.css"
 import FirstSection from "./FirstSection/FirstSection";
@@ -33,7 +34,17 @@ let Main = () => {
                 heading={"Научная  деятельность в казанском университете в годы войны"}
                 desc={lorem}
                 link={"/science"}
+                height={"964px"}
                 linkDesc={"Читать подробнее..."}
+            />
+            <Section
+                id={"sources"}
+                src={sources_back}
+                alt={"main picture"}
+                heading={"Исторические источники"}
+                desc={lorem}
+                link={"/sources"}
+                linkDesc={"Подробнее"}
             />
             <Feedback submit={console.log}/>
         </>

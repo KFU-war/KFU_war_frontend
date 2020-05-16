@@ -36,6 +36,10 @@ module.exports = {
                 use: 'file-loader'
             },
             {
+                test: /\.(mp4)?$/,
+                use: 'file-loader'
+            },
+            {
                 test: /\.(otf|eot|woff|woff2|svg|ttf)([\?]?.*)$/,
                 use: [
                     {
