@@ -1,32 +1,86 @@
 .Feedback{
+    height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-.infoBlock{
-    display: flex;
-    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .form{
     display: flex;
-    flex-direction: row;
-}
-
-.info{
-
-}
-
-.logos{
-    display: flex;
-    flex-direction: row;
-}
-
-.logo{
-
-}
-
-.col{
-    display: flex;
     flex-direction: column;
+}
+
+.headingBlock{
+    width: 50vw;
+    margin: 0vw 25vw;
+}
+
+.headingText{
+    font-size: 2em;
+}
+
+.writeBack{
+    font-size: 1.5em;
+    margin: 2em 0em;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+}
+
+.textAreaWrapper{
+
+}
+
+.submitBtn{
+    background-color: #333333 !important;
+    text-transform: none !important;
+    font-weight: normal !important;
+    font-size: 1.5em;
+    padding: 5px 10px;
+    letter-spacing: normal !important;
+    border-radius: 30px;
+    box-shadow: none !important;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    background-color: #bfbfbf !important;
+    color: black;
+}
+
+.input{
+    background-color: #e6e6e6;
+    box-shadow: none;
+    border: 1px #bfbfbf solid;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 0.5em;
+    padding: 10px 10px;
+    outline: none;
+}
+
+.textArea{
+    width: 100%;
+    height: 40vh;
+    resize: none;
+    font-size: 1.5em;
+}
+
+.btnWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+label{
+    font-size: 2em;
+}
+
+.label{
+    font-size: 1em;
 }
