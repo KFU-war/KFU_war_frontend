@@ -8,6 +8,7 @@ import people from '../../assets/img/people.png';
 import classes from "./Main.module.css"
 import FirstSection from "./FirstSection/FirstSection";
 import DescSection from "./DescSection/DescSection";
+import VideoSection from "./VideoSection/VideoSection";
 
 let Main = () => {
     let lorem = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
@@ -15,6 +16,7 @@ let Main = () => {
         <>
             <FirstSection/>
             <DescSection/>
+            <VideoSection/>
             <Section
                 id={"people"}
                 src={people}

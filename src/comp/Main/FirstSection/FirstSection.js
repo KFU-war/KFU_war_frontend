@@ -12,7 +12,7 @@ let FirstSection = (props) => {
                 <span className={classes.years}>1941-1945</span>
                 <h2 className={classes.heading}>Казанский университет в годы войны</h2>
                 <div>
-                    <a href={"#video"}className={classes.arrow}>
+                    <a href={"#desc"}className={classes.arrow}>
                         <img src={leftPart} className={classes.arrow_part} alt={"Стрелка"}/>
                         <img src={rightPart} className={classes.arrow_part + " " + classes.rigth_part} alt={"Стрелка"}/>
                     </a>
