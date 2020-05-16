@@ -1,7 +1,6 @@
 .Header{
     width: 100vw;
     height: fit-content;
-    font-size: 32px;
     position: fixed;
     z-index: 10;
     transition: 0.5s all linear;
