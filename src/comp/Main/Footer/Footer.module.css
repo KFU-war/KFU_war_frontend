@@ -1,0 +1,66 @@
+.Footer{
+    color: white;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #333333;
+}
+
+.link_logo{
+    height: 100%;
+}
+
+.links{
+    width: 40vw;
+    margin: 0vw 30vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 20%;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.kfu_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 25%;
+}
+
+.authorsWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.authors{
+    display: flex;
+    flex-direction: column;
+}
+
+.authors_heading{
+    font-size: 2.5em;
+}
+
+.author{
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.lastText{
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 20px;
+}
