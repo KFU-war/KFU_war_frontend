@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "339ddf032a348e3baaf386a46ebc313f",
+    "revision": "ca5db67cf1a5e8455be10001be32bce7",
     "url": "/KFU_war_frontend/index.html"
   },
   {
-    "revision": "78e4aefcfedb85a97f5b",
+    "revision": "7c8c10bf147dfdee9112",
     "url": "/KFU_war_frontend/static/css/2.a33d7f97.chunk.css"
   },
   {
-    "revision": "8b5d8715eb9dab669674",
-    "url": "/KFU_war_frontend/static/css/main.66509d95.chunk.css"
+    "revision": "7e3af27895216016b2e8",
+    "url": "/KFU_war_frontend/static/css/main.6c26ddcd.chunk.css"
   },
   {
-    "revision": "78e4aefcfedb85a97f5b",
-    "url": "/KFU_war_frontend/static/js/2.cfee40d7.chunk.js"
+    "revision": "7c8c10bf147dfdee9112",
+    "url": "/KFU_war_frontend/static/js/2.acc7e315.chunk.js"
   },
   {
     "revision": "b994d04638acca06b6a227f54dab2ddf",
-    "url": "/KFU_war_frontend/static/js/2.cfee40d7.chunk.js.LICENSE.txt"
+    "url": "/KFU_war_frontend/static/js/2.acc7e315.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8b5d8715eb9dab669674",
-    "url": "/KFU_war_frontend/static/js/main.077c9c19.chunk.js"
+    "revision": "7e3af27895216016b2e8",
+    "url": "/KFU_war_frontend/static/js/main.3f866669.chunk.js"
   },
   {
     "revision": "b345f307c146efbc8f4b",
