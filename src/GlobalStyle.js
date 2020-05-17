@@ -119,12 +119,34 @@ html, body, button, input {
 
 /*Laptop*/
 @media all and (max-width: 1690px) {
-
+    
 }
 
 /*iPad Pro*/
 @media all and (max-width: 1280px) {
+    .sectionContent{
+        width: 50vw;
+        height: 100%;
+    }
     
+    .sectionContentheading{
+        margin-bottom: 10%;
+        font-size: 2.0em;
+    }
+    
+    .sectionContentdesc{
+        font-size: 1.5em;
+    }
+    
+    .sectionContentlink{
+        margin-top: 10%;
+        font-size: 1.7em;
+    }
+    
+    .img{
+        width: 100%;
+        height : 60vh;
+    }
 }
 
 /*iPad*/
@@ -134,7 +156,19 @@ html, body, button, input {
 
 /*Mobile*/
 @media all and (max-width: 480px) {
+    .sectionContentheading{
+        margin-bottom: 20%;
+        font-size: 1.2em;
+    }
     
+    .sectionContentdesc{
+        font-size: .75em;
+    }
+    
+    .sectionContentlink{
+        margin-top: 15%;
+        font-size: 1.2em;
+    }
 }
 
 `;
