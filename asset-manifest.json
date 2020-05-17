@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/KFU_war_frontend/static/css/main.8809de78.chunk.css",
+    "main.js": "/KFU_war_frontend/static/js/main.dcb5d0ca.chunk.js",
+    "main.js.map": "/KFU_war_frontend/static/js/main.dcb5d0ca.chunk.js.map",
+    "runtime-main.js": "/KFU_war_frontend/static/js/runtime-main.df1d014c.js",
+    "runtime-main.js.map": "/KFU_war_frontend/static/js/runtime-main.df1d014c.js.map",
+    "static/css/2.a33d7f97.chunk.css": "/KFU_war_frontend/static/css/2.a33d7f97.chunk.css",
+    "static/js/2.4cf4a51b.chunk.js": "/KFU_war_frontend/static/js/2.4cf4a51b.chunk.js",
+    "static/js/2.4cf4a51b.chunk.js.map": "/KFU_war_frontend/static/js/2.4cf4a51b.chunk.js.map",
+    "index.html": "/KFU_war_frontend/index.html",
+    "precache-manifest.b26d846d1f84dd9afcc64d3216a14b63.js": "/KFU_war_frontend/precache-manifest.b26d846d1f84dd9afcc64d3216a14b63.js",
+    "service-worker.js": "/KFU_war_frontend/service-worker.js",
+    "static/css/2.a33d7f97.chunk.css.map": "/KFU_war_frontend/static/css/2.a33d7f97.chunk.css.map",
+    "static/css/main.8809de78.chunk.css.map": "/KFU_war_frontend/static/css/main.8809de78.chunk.css.map",
+    "static/js/2.4cf4a51b.chunk.js.LICENSE.txt": "/KFU_war_frontend/static/js/2.4cf4a51b.chunk.js.LICENSE.txt",
+    "static/media/Mont-ExtraLight.otf": "/KFU_war_frontend/static/media/Mont-ExtraLight.35ae702d.otf",
+    "static/media/Mont-Heavy.otf": "/KFU_war_frontend/static/media/Mont-Heavy.7d90a574.otf",
+    "static/media/ProductSansBold.ttf": "/KFU_war_frontend/static/media/ProductSansBold.dba0c688.ttf",
+    "static/media/ProductSansBoldItalic.ttf": "/KFU_war_frontend/static/media/ProductSansBoldItalic.79750b1d.ttf",
+    "static/media/ProductSansItalic.ttf": "/KFU_war_frontend/static/media/ProductSansItalic.e88ec188.ttf",
+    "static/media/ProductSansRegular.ttf": "/KFU_war_frontend/static/media/ProductSansRegular.eae9c18c.ttf",
+    "static/media/kfu_icon.png": "/KFU_war_frontend/static/media/kfu_icon.3079cb90.png",
+    "static/media/main.png": "/KFU_war_frontend/static/media/main.1c6abfff.png",
+    "static/media/main_video.mp4": "/KFU_war_frontend/static/media/main_video.a0d79d68.mp4",
+    "static/media/people.png": "/KFU_war_frontend/static/media/people.d3f200e0.png",
+    "static/media/science.png": "/KFU_war_frontend/static/media/science.d5cfa8b0.png",
+    "static/media/sources_background.png": "/KFU_war_frontend/static/media/sources_background.c80a0ae2.png",
+    "static/media/video_back.png": "/KFU_war_frontend/static/media/video_back.0dee462b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df1d014c.js",
+    "static/css/2.a33d7f97.chunk.css",
+    "static/js/2.4cf4a51b.chunk.js",
+    "static/css/main.8809de78.chunk.css",
+    "static/js/main.dcb5d0ca.chunk.js"
+  ]
+}
