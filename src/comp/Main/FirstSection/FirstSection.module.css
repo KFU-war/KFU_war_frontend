@@ -74,5 +74,12 @@
 
 /*Mobile*/
 @media all and (max-width: 480px) {
-
+    .heading {
+        margin-top: 10%;
+        margin-bottom: 15%;
+        font-size: 1em;
+    }
+    .years{
+        font-size: 1em;
+    }
 }
