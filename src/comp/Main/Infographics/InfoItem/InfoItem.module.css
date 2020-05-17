@@ -30,7 +30,17 @@
 
 /*iPad Pro*/
 @media all and (max-width: 1280px) {
+    .additionalText{
+        font-size: .5em;
+    }
 
+    .number{
+        font-size: 3em;
+    }
+
+    .text{
+        font-size: 1.5em;
+    }
 }
 
 /*iPad*/
@@ -40,5 +50,16 @@
 
 /*Mobile*/
 @media all and (max-width: 480px) {
+    .additionalText{
+        font-size: .5em;
+    }
 
+    .number{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .text{
+        font-size: .75em;
+    }
 }

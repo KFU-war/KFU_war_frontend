@@ -4,7 +4,7 @@
 }
 
 .background{
-
+    width: 100vw;
 }
 
 .video{
@@ -38,7 +38,9 @@
 
 /*iPad Pro*/
 @media all and (max-width: 1280px) {
-
+    .background{
+        height: 40vh;
+    }
 }
 
 /*iPad*/
