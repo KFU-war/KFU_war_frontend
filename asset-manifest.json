@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/KFU_war_frontend/static/css/main.b9f74d89.chunk.css",
-    "main.js": "/KFU_war_frontend/static/js/main.fb8d6eef.chunk.js",
-    "main.js.map": "/KFU_war_frontend/static/js/main.fb8d6eef.chunk.js.map",
+    "main.css": "/KFU_war_frontend/static/css/main.906491d0.chunk.css",
+    "main.js": "/KFU_war_frontend/static/js/main.917a4fa2.chunk.js",
+    "main.js.map": "/KFU_war_frontend/static/js/main.917a4fa2.chunk.js.map",
     "runtime-main.js": "/KFU_war_frontend/static/js/runtime-main.df1d014c.js",
     "runtime-main.js.map": "/KFU_war_frontend/static/js/runtime-main.df1d014c.js.map",
     "static/css/2.a33d7f97.chunk.css": "/KFU_war_frontend/static/css/2.a33d7f97.chunk.css",
-    "static/js/2.1fc508aa.chunk.js": "/KFU_war_frontend/static/js/2.1fc508aa.chunk.js",
-    "static/js/2.1fc508aa.chunk.js.map": "/KFU_war_frontend/static/js/2.1fc508aa.chunk.js.map",
+    "static/js/2.a7661f09.chunk.js": "/KFU_war_frontend/static/js/2.a7661f09.chunk.js",
+    "static/js/2.a7661f09.chunk.js.map": "/KFU_war_frontend/static/js/2.a7661f09.chunk.js.map",
     "index.html": "/KFU_war_frontend/index.html",
-    "precache-manifest.116be937b5cc214eac730bcac2bd7c03.js": "/KFU_war_frontend/precache-manifest.116be937b5cc214eac730bcac2bd7c03.js",
+    "precache-manifest.f807f9b43066098b2c8f8ca7ef578ba3.js": "/KFU_war_frontend/precache-manifest.f807f9b43066098b2c8f8ca7ef578ba3.js",
     "service-worker.js": "/KFU_war_frontend/service-worker.js",
     "static/css/2.a33d7f97.chunk.css.map": "/KFU_war_frontend/static/css/2.a33d7f97.chunk.css.map",
-    "static/css/main.b9f74d89.chunk.css.map": "/KFU_war_frontend/static/css/main.b9f74d89.chunk.css.map",
-    "static/js/2.1fc508aa.chunk.js.LICENSE.txt": "/KFU_war_frontend/static/js/2.1fc508aa.chunk.js.LICENSE.txt",
+    "static/css/main.906491d0.chunk.css.map": "/KFU_war_frontend/static/css/main.906491d0.chunk.css.map",
+    "static/js/2.a7661f09.chunk.js.LICENSE.txt": "/KFU_war_frontend/static/js/2.a7661f09.chunk.js.LICENSE.txt",
     "static/media/Mont-ExtraLight.otf": "/KFU_war_frontend/static/media/Mont-ExtraLight.35ae702d.otf",
     "static/media/Mont-Heavy.otf": "/KFU_war_frontend/static/media/Mont-Heavy.7d90a574.otf",
     "static/media/ProductSansBold.ttf": "/KFU_war_frontend/static/media/ProductSansBold.dba0c688.ttf",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.df1d014c.js",
     "static/css/2.a33d7f97.chunk.css",
-    "static/js/2.1fc508aa.chunk.js",
-    "static/css/main.b9f74d89.chunk.css",
-    "static/js/main.fb8d6eef.chunk.js"
+    "static/js/2.a7661f09.chunk.js",
+    "static/css/main.906491d0.chunk.css",
+    "static/js/main.917a4fa2.chunk.js"
   ]
 }
