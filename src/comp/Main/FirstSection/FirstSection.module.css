@@ -64,7 +64,11 @@
 
 /*iPad Pro*/
 @media all and (max-width: 1280px) {
-
+    .heading {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 2em;
+    }
 }
 
 /*iPad*/

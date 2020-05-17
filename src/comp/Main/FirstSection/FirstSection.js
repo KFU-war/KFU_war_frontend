@@ -8,7 +8,6 @@ import $ from "jquery";
 let FirstSection = (props) => {
     let click = (e) => {
         e.preventDefault();
-        debugger;
         let id  = e.currentTarget.getAttribute('href');
         let top = $(id).offset().top;
         $('body,html').animate({scrollTop: top - 160}, 750);

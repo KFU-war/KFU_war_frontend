@@ -21,7 +21,9 @@
 
 /*iPad Pro*/
 @media all and (max-width: 1280px) {
-
+    .DescSection{
+        min-height: 25vh;
+    }
 }
 
 /*iPad*/
@@ -31,5 +33,7 @@
 
 /*Mobile*/
 @media all and (max-width: 480px) {
-
+    .descWrapper{
+        font-size: .75em;
+    }
 }
