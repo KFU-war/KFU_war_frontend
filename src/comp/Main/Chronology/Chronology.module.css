@@ -38,7 +38,16 @@
 
 /*iPad Pro*/
 @media all and (max-width: 1280px) {
+    .heading{
+        font-size: 3em;
+    }
 
+    .link{
+        font-size: 2em;
+    }
+    .chronoRow{
+        margin: 15% 0px;
+    }
 }
 
 /*iPad*/
@@ -48,5 +57,18 @@
 
 /*Mobile*/
 @media all and (max-width: 480px) {
+    .Chronology{
+        height: 40vh;
+    }
 
+    .heading{
+        font-size: 1.5em;
+    }
+
+    .link{
+        font-size: 1em;
+    }
+    .chronoRow{
+        margin: 10% 0px;
+    }
 }

@@ -35,13 +35,13 @@ let Footer = (props) => {
                 </div>
             </div>
             <div className={classes.links}>
-                <a href={"#facebook"}>
+                <a href={"#facebook"} className={classes.link_a}>
                     <img src={facebook} className={classes.link_logo} alt={"facebook icon"}/>
                 </a>
-                <a href={"#insta"}>
+                <a href={"#insta"} className={classes.link_a}>
                     <img src={insta} className={classes.link_logo} alt={"insta icon"}/>
                 </a>
-                <a href={"#site"}>
+                <a href={"#site"} className={classes.link_a}>
                     <img src={globe} className={classes.link_logo} alt={"globe icon"}/>
                 </a>
             </div>

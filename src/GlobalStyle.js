@@ -151,7 +151,9 @@ html, body, button, input {
 
 /*iPad*/
 @media all and (max-width: 980px) {
-
+    .sectionContentdesc{
+        font-size: 1.25em;
+    }
 }
 
 /*Mobile*/
@@ -166,8 +168,8 @@ html, body, button, input {
     }
     
     .sectionContentlink{
-        margin-top: 15%;
-        font-size: 1.2em;
+        margin-top: 10%;
+        font-size: 1em;
     }
 }
 

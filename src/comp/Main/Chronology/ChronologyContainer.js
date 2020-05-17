@@ -32,7 +32,7 @@ let ChronologyContainer = (props) => {
             return(
                 <div className={classes.chronologyItemWrapper}>
                     <ChronologyItem {...elem}/>
-                    <img src={spacing} alt={"separator"}/>
+                    <img src={spacing} alt={"separator"} className={classes.spacing}/>
                 </div>
             )
         } else {

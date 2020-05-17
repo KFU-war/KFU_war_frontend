@@ -22,6 +22,10 @@
     top: 25%;
 }
 
+.spacing{
+
+}
+
 /*Laptop*/
 @media all and (max-width: 1690px) {
 
@@ -29,15 +33,43 @@
 
 /*iPad Pro*/
 @media all and (max-width: 1280px) {
+    .circle{
+        width: 5vh;
+    }
 
+    .spacing{
+        width: 10vw;
+    }
+
+    .time{
+        left: 2vw;
+        font-size: 1.5em;
+        top: 25%;
+    }
 }
 
 /*iPad*/
 @media all and (max-width: 980px) {
-
+    .time{
+        left: 1.5vw;
+        font-size: 1.25em;
+        top: 25%;
+    }
 }
 
 /*Mobile*/
 @media all and (max-width: 480px) {
+    .circle{
+        width: 4vh;
+    }
 
+    .spacing{
+        width: 7.5vw;
+    }
+
+    .time{
+        left: 2vw;
+        font-size: .75em;
+        top: 25%;
+    }
 }

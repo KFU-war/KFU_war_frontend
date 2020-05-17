@@ -65,6 +65,10 @@
     margin-bottom: 20px;
 }
 
+.link_a{
+
+}
+
 /*Laptop*/
 @media all and (max-width: 1690px) {
 
@@ -72,15 +76,138 @@
 
 /*iPad Pro*/
 @media all and (max-width: 1280px) {
+    .link_logo{
+        height: 100%;
+    }
 
+    .links{
+        width: 60vw;
+        margin: 0vw 20vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 50vw;
+    }
+
+    .kfu_logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 40vw;
+        margin-bottom: 20px;
+    }
+
+    .authorsWrapper{
+        margin-top: 30px;
+    }
+
+    .authors{
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .authors_heading{
+        font-size: 2em;
+    }
+
+    .author{
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    .lastText{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
 }
 
 /*iPad*/
 @media all and (max-width: 980px) {
+    .link_logo{
+        height: 50%;
+    }
 
+    .kfu_logo{
+        width: 40vw;
+    }
+
+    .authorsWrapper{
+        margin-top: 30px;
+    }
+
+    .authors{
+        width: 40vw;
+    }
+
+    .authors_heading{
+        font-size: 1.5em;
+    }
+
+    .author{
+        font-size: 1.25em;
+    }
+
+    .lastText{
+        font-size: 1.25em;
+    }
 }
 
 /*Mobile*/
 @media all and (max-width: 480px) {
+    .Footer{
+        height: 85vh;
+    }
 
+    .link_logo{
+        height: 50%;
+    }
+
+    .logos{
+        width: 100vw;
+        align-items: center;
+    }
+
+    .kfu_logo{
+        width: 50vw;
+    }
+
+    .logo{
+        height: 100%;
+        max-width: 60vw;
+    }
+
+    .authorsWrapper{
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .authors{
+        text-align: center;
+        width: 100vw;
+        margin-bottom: 20px;
+    }
+
+    .authors_heading{
+        font-size: 1.5em;
+    }
+
+    .author{
+        font-size: 1.25em;
+    }
+
+    .lastText{
+        font-size: .75em;
+    }
+
+    .link_a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
