@@ -1,23 +1,20 @@
 import React from "react";
 import classes from "./Chronology.module.css";
+import {NavLink} from "react-router-dom";
 
 let Chronology = (props) => {
     return(
-        <div className={classes.Chronology}>
+        <section className={classes.Chronology}>
+            <h2 className={classes.heading}>
+                Хронология событий
+            </h2>
             <div className={classes.chronoRow}>
                 {props.chronItems}
             </div>
-            <div className={classes.desc}>
-                <div className={classes.text}>
-                    {props.desc}
-                </div>
-                <div className={classes.link}>
-                    <a href={props.link}>
-                        Читать больше
-                    </a>
-                </div>
-            </div>
-        </div>
+            <NavLink to={"/time"} className={classes.link}>
+                Читать подробнее...
+            </NavLink>
+        </section>
     )
 }
 

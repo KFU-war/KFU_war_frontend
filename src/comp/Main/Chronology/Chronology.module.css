@@ -1,9 +1,16 @@
 .Chronology{
-
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 100vh;
 }
 
 .chronoRow{
-
+    display: flex;
+    flex-direction: row;
 }
 
 .desc{
@@ -14,6 +21,11 @@
 
 }
 
-.link{
+.heading{
+    font-size: 2em;
+}
 
+.link{
+    color: black;
+    font-size: 2em;
 }
