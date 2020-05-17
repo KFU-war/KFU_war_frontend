@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/KFU_war_frontend/static/css/main.8809de78.chunk.css",
-    "main.js": "/KFU_war_frontend/static/js/main.dcb5d0ca.chunk.js",
-    "main.js.map": "/KFU_war_frontend/static/js/main.dcb5d0ca.chunk.js.map",
+    "main.js": "/KFU_war_frontend/static/js/main.a397d1f3.chunk.js",
+    "main.js.map": "/KFU_war_frontend/static/js/main.a397d1f3.chunk.js.map",
     "runtime-main.js": "/KFU_war_frontend/static/js/runtime-main.df1d014c.js",
     "runtime-main.js.map": "/KFU_war_frontend/static/js/runtime-main.df1d014c.js.map",
     "static/css/2.a33d7f97.chunk.css": "/KFU_war_frontend/static/css/2.a33d7f97.chunk.css",
     "static/js/2.4cf4a51b.chunk.js": "/KFU_war_frontend/static/js/2.4cf4a51b.chunk.js",
     "static/js/2.4cf4a51b.chunk.js.map": "/KFU_war_frontend/static/js/2.4cf4a51b.chunk.js.map",
     "index.html": "/KFU_war_frontend/index.html",
-    "precache-manifest.e2854cabb531fdf88b250352f4b74def.js": "/KFU_war_frontend/precache-manifest.e2854cabb531fdf88b250352f4b74def.js",
+    "precache-manifest.74f603ab13a2c8205c71bdd93035be1b.js": "/KFU_war_frontend/precache-manifest.74f603ab13a2c8205c71bdd93035be1b.js",
     "service-worker.js": "/KFU_war_frontend/service-worker.js",
     "static/css/2.a33d7f97.chunk.css.map": "/KFU_war_frontend/static/css/2.a33d7f97.chunk.css.map",
     "static/css/main.8809de78.chunk.css.map": "/KFU_war_frontend/static/css/main.8809de78.chunk.css.map",
@@ -33,6 +33,6 @@
     "static/css/2.a33d7f97.chunk.css",
     "static/js/2.4cf4a51b.chunk.js",
     "static/css/main.8809de78.chunk.css",
-    "static/js/main.dcb5d0ca.chunk.js"
+    "static/js/main.a397d1f3.chunk.js"
   ]
 }

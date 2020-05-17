@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/KFU_war_frontend/precache-manifest.e2854cabb531fdf88b250352f4b74def.js"
+  "/KFU_war_frontend/precache-manifest.74f603ab13a2c8205c71bdd93035be1b.js"
 );
 
 self.addEventListener('message', (event) => {
