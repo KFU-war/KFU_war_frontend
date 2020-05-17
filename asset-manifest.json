@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8809de78.chunk.css",
+    "main.js": "/static/js/main.70f8791f.chunk.js",
+    "main.js.map": "/static/js/main.70f8791f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a2d02448.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a2d02448.js.map",
+    "static/css/2.a33d7f97.chunk.css": "/static/css/2.a33d7f97.chunk.css",
+    "static/js/2.2d6b30e8.chunk.js": "/static/js/2.2d6b30e8.chunk.js",
+    "static/js/2.2d6b30e8.chunk.js.map": "/static/js/2.2d6b30e8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ad667f532c7fec88e2f51149e861fac1.js": "/precache-manifest.ad667f532c7fec88e2f51149e861fac1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a33d7f97.chunk.css.map": "/static/css/2.a33d7f97.chunk.css.map",
+    "static/css/main.8809de78.chunk.css.map": "/static/css/main.8809de78.chunk.css.map",
+    "static/js/2.2d6b30e8.chunk.js.LICENSE.txt": "/static/js/2.2d6b30e8.chunk.js.LICENSE.txt",
+    "static/media/Mont-ExtraLight.otf": "/static/media/Mont-ExtraLight.35ae702d.otf",
+    "static/media/Mont-Heavy.otf": "/static/media/Mont-Heavy.7d90a574.otf",
+    "static/media/ProductSansBold.ttf": "/static/media/ProductSansBold.dba0c688.ttf",
+    "static/media/ProductSansBoldItalic.ttf": "/static/media/ProductSansBoldItalic.79750b1d.ttf",
+    "static/media/ProductSansItalic.ttf": "/static/media/ProductSansItalic.e88ec188.ttf",
+    "static/media/ProductSansRegular.ttf": "/static/media/ProductSansRegular.eae9c18c.ttf",
+    "static/media/kfu_icon.png": "/static/media/kfu_icon.3079cb90.png",
+    "static/media/main.png": "/static/media/main.1c6abfff.png",
+    "static/media/main_video.mp4": "/static/media/main_video.a0d79d68.mp4",
+    "static/media/people.png": "/static/media/people.d3f200e0.png",
+    "static/media/science.png": "/static/media/science.d5cfa8b0.png",
+    "static/media/sources_background.png": "/static/media/sources_background.c80a0ae2.png",
+    "static/media/video_back.png": "/static/media/video_back.0dee462b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2d02448.js",
+    "static/css/2.a33d7f97.chunk.css",
+    "static/js/2.2d6b30e8.chunk.js",
+    "static/css/main.8809de78.chunk.css",
+    "static/js/main.70f8791f.chunk.js"
+  ]
+}
