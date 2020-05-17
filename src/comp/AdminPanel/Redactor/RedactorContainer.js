@@ -16,7 +16,7 @@ let RedactorContainer = (props) => {
     }
     return (
         <>
-            {(props.type === EDIT_TYPE && id) || (props.type === CREATE_TYPE)
+            {(props.type === EDIT_TYPE) || (props.type === CREATE_TYPE)
                 ? <Redactor article={props.article} save={save}/>
                 : <Redirect to={"/admin"}/>
             }
