@@ -60,6 +60,52 @@ html, body, button, input {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.Section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    position: relative;
+    color: white;
+}
+
+.img{
+    width: 100%;
+}
+
+.sectionContent{
+    position: absolute;
+    width: 50vw;
+    margin: 0vw 25vw;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.sectionContentheading{
+    margin-bottom: 20%;
+    font-size: 2.5em;
+}
+
+.sectionContentdesc{
+    font-size: 1.5em;
+}
+
+.sectionContentlink{
+    color: white;
+    height: fit-content !important;
+    margin-top: 20%;
+    font-size: 1.5em;
+}
+
+.video-react-workinghover{
+    width : 100%;
+    height : 50%;
+}
 `;
 
 export default GlobalStyle;

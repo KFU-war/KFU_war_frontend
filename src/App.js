@@ -22,7 +22,7 @@ function App() {
     })
   return (
     <div className="App" id={"App"}>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Provider store={store}>
                 <GlobalStyle/>
                 <Route path={"/"} exact>
