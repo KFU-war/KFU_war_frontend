@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KFU_war_frontend/static/css/main.906491d0.chunk.css",
+    "main.css": "/KFU_war_frontend/static/css/main.8b36657b.chunk.css",
     "main.js": "/KFU_war_frontend/static/js/main.1d9b0ad6.chunk.js",
     "main.js.map": "/KFU_war_frontend/static/js/main.1d9b0ad6.chunk.js.map",
     "runtime-main.js": "/KFU_war_frontend/static/js/runtime-main.df1d014c.js",
@@ -9,10 +9,10 @@
     "static/js/2.a7661f09.chunk.js": "/KFU_war_frontend/static/js/2.a7661f09.chunk.js",
     "static/js/2.a7661f09.chunk.js.map": "/KFU_war_frontend/static/js/2.a7661f09.chunk.js.map",
     "index.html": "/KFU_war_frontend/index.html",
-    "precache-manifest.2e592c21c8bfacfe591d93545422657f.js": "/KFU_war_frontend/precache-manifest.2e592c21c8bfacfe591d93545422657f.js",
+    "precache-manifest.b9183fc3a376d1633a06d13006ef1ed8.js": "/KFU_war_frontend/precache-manifest.b9183fc3a376d1633a06d13006ef1ed8.js",
     "service-worker.js": "/KFU_war_frontend/service-worker.js",
     "static/css/2.a33d7f97.chunk.css.map": "/KFU_war_frontend/static/css/2.a33d7f97.chunk.css.map",
-    "static/css/main.906491d0.chunk.css.map": "/KFU_war_frontend/static/css/main.906491d0.chunk.css.map",
+    "static/css/main.8b36657b.chunk.css.map": "/KFU_war_frontend/static/css/main.8b36657b.chunk.css.map",
     "static/js/2.a7661f09.chunk.js.LICENSE.txt": "/KFU_war_frontend/static/js/2.a7661f09.chunk.js.LICENSE.txt",
     "static/media/Mont-ExtraLight.otf": "/KFU_war_frontend/static/media/Mont-ExtraLight.35ae702d.otf",
     "static/media/Mont-Heavy.otf": "/KFU_war_frontend/static/media/Mont-Heavy.7d90a574.otf",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.df1d014c.js",
     "static/css/2.a33d7f97.chunk.css",
     "static/js/2.a7661f09.chunk.js",
-    "static/css/main.906491d0.chunk.css",
+    "static/css/main.8b36657b.chunk.css",
     "static/js/main.1d9b0ad6.chunk.js"
   ]
 }
