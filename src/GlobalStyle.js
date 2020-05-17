@@ -50,6 +50,10 @@ const GlobalStyle = createGlobalStyle`
     font-weight: bold;
 }
 
+body{
+    overflow : hidden;
+}
+
 html, body{
     overflow-x : hidden;
 }
@@ -71,6 +75,7 @@ html, body, button, input {
 
 .img{
     width: 100%;
+    height : 90vh;
 }
 
 .sectionContent{
@@ -87,25 +92,51 @@ html, body, button, input {
 }
 
 .sectionContentheading{
-    margin-bottom: 20%;
-    font-size: 2.5em;
+    margin-bottom: 10%;
+    font-size: 2.0em;
 }
 
 .sectionContentdesc{
-    font-size: 1.5em;
+    font-size: 1.0em;
 }
 
 .sectionContentlink{
     color: white;
     height: fit-content !important;
-    margin-top: 20%;
-    font-size: 1.5em;
+    margin-top: 10%;
+    font-size: 1.3em;
 }
 
 .video-react-workinghover{
     width : 100%;
     height : 50%;
 }
+
+.video-react-big-play-button{
+    top : 45% !important;
+    left : 45% !important;
+}
+
+/*Laptop*/
+@media all and (max-width: 1690px) {
+
+}
+
+/*iPad Pro*/
+@media all and (max-width: 1280px) {
+    
+}
+
+/*iPad*/
+@media all and (max-width: 980px) {
+
+}
+
+/*Mobile*/
+@media all and (max-width: 480px) {
+    
+}
+
 `;
 
 export default GlobalStyle;

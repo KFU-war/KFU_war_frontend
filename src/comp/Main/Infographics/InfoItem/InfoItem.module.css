@@ -11,7 +11,7 @@
 }
 
 .number{
-    font-size: 4em;
+    font-size: 3em;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -19,6 +19,26 @@
 }
 
 .text{
-    font-size: 2em;
+    font-size: 1.25em;
     color: black;
+}
+
+/*Laptop*/
+@media all and (max-width: 1690px) {
+
+}
+
+/*iPad Pro*/
+@media all and (max-width: 1280px) {
+
+}
+
+/*iPad*/
+@media all and (max-width: 980px) {
+
+}
+
+/*Mobile*/
+@media all and (max-width: 480px) {
+
 }

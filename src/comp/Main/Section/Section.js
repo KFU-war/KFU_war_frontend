@@ -9,7 +9,7 @@ let Section = (props) => {
     }
     return(
         <section className={"Section"} id={props.id} ref={sectionRef}>
-            <img src={props.src} alt={props.alt} onLoad={setHeight}/>
+            <img src={props.src} alt={props.alt} className={"img"} onLoad={setHeight}/>
             <div className={"sectionContent"}>
                 <h2 className={"sectionContentheading"}>{props.heading}</h2>
                 <span className={"sectionContentdesc"}>{props.desc}</span>

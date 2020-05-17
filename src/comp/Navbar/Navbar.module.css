@@ -16,3 +16,27 @@
     font-weight: bold;
     font-size: 1.5em;
 }
+
+/*Laptop*/
+@media all and (max-width: 1690px) {
+
+}
+
+/*iPad Pro*/
+@media all and (max-width: 1280px) {
+    .link{
+        font-size: 1em;
+    }
+}
+
+/*iPad*/
+@media all and (max-width: 980px) {
+
+}
+
+/*Mobile*/
+@media all and (max-width: 480px) {
+    .link{
+        font-size: .50em;
+    }
+}

@@ -1,6 +1,6 @@
 .DescSection{
     width: 100vw;
-    min-height: 80vh;
+    min-height: 50vh;
     position: relative;
 }
 
@@ -10,6 +10,26 @@
     align-items: center;
     width: 50vw;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: auto;
+}
+
+/*Laptop*/
+@media all and (max-width: 1690px) {
+
+}
+
+/*iPad Pro*/
+@media all and (max-width: 1280px) {
+
+}
+
+/*iPad*/
+@media all and (max-width: 980px) {
+
+}
+
+/*Mobile*/
+@media all and (max-width: 480px) {
+
 }

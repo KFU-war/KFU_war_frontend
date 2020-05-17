@@ -30,3 +30,23 @@
     color: white;
     background-color: transparent;
 }
+
+/*Laptop*/
+@media all and (max-width: 1690px) {
+
+}
+
+/*iPad Pro*/
+@media all and (max-width: 1280px) {
+
+}
+
+/*iPad*/
+@media all and (max-width: 980px) {
+
+}
+
+/*Mobile*/
+@media all and (max-width: 480px) {
+
+}

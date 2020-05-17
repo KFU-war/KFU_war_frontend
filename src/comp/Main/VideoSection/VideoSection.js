@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./VideoSection.module.css";
 import background from "../../../assets/img/video_back.png";
 import "video-react/dist/video-react.css";
-import { Player, ControlBar, PlayToggle, ReplayControl } from 'video-react';
+import { Player, ControlBar, PlayToggle, BigPlayButton } from 'video-react';
 import video from "../../../assets/video/main_video.mp4"
 import "./VideoStyle.css";
 
@@ -20,6 +20,7 @@ let VideoSection = (props) => {
                     src={video}
                 >
                     <ControlBar autoHide={true}  disableDefaultControls className={classes.controls}>
+                        <BigPlayButton position="center" />
                         <PlayToggle className={classes.playBtn}/>
                     </ControlBar>
                 </Player>

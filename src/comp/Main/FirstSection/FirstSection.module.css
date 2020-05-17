@@ -1,7 +1,10 @@
 .MainSection{
-    width: 100vw;
     position: relative;
     color: white;
+}
+
+.img{
+    width: 100vw;
 }
 
 .sectionContent{
@@ -18,12 +21,13 @@
 }
 
 .heading {
-    margin-bottom: 20%;
+    margin-top: 20%;
+    margin-bottom: 30%;
     font-size: 3em;
 }
 
 .years{
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .arrow{
@@ -51,4 +55,24 @@
     100%{
         transform: translateY(0%);
     }
+}
+
+/*Laptop*/
+@media all and (max-width: 1690px) {
+
+}
+
+/*iPad Pro*/
+@media all and (max-width: 1280px) {
+
+}
+
+/*iPad*/
+@media all and (max-width: 980px) {
+
+}
+
+/*Mobile*/
+@media all and (max-width: 480px) {
+
 }
