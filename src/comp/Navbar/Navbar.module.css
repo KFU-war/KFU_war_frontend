@@ -49,7 +49,7 @@
 /*Mobile*/
 @media all and (max-width: 480px) {
     .link{
-        font-size: .25em;
+        font-size: .50em;
     }
     .svg{
         height: 1em;
