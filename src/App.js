@@ -10,13 +10,15 @@ import CategoriesSelectContainer from "./comp/AdminPanel/Categories/Select/Categ
 import CategoryEditContainer from "./comp/AdminPanel/Categories/Edit/CategoryEditContainer";
 import {RedactorContainer} from "./comp/AdminPanel/Redactor/RedactorContainer";
 import GlobalStyle from "./GlobalStyle";
+import Footer from "./comp/Main/Footer/Footer";
 
 function App() {
     let pages = ["/people", "/time", "/science"].map((link) => {
         return (
             <Route path={link}>
                 <Header name={link}/>
-                <PageContainer/>
+                <PageContainer link={link}/>
+                <Footer/>
             </Route>
         );
     })

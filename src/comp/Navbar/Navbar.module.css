@@ -17,6 +17,15 @@
     font-size: 1.5em;
 }
 
+.svg{
+    fill: white;
+}
+
+.admin_btn{
+    display: flex;
+    align-items: flex-start;
+}
+
 /*Laptop*/
 @media all and (max-width: 1690px) {
 
@@ -26,6 +35,9 @@
 @media all and (max-width: 1280px) {
     .link{
         font-size: 1em;
+    }
+    .svg{
+        height: 2em;
     }
 }
 
@@ -37,6 +49,9 @@
 /*Mobile*/
 @media all and (max-width: 480px) {
     .link{
-        font-size: .50em;
+        font-size: .25em;
+    }
+    .svg{
+        height: 1em;
     }
 }

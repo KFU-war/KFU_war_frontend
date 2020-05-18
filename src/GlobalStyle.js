@@ -154,6 +154,11 @@ html, body, button, input {
     .sectionContentdesc{
         font-size: 1.25em;
     }
+    
+    .video-react-big-play-button{
+        top : 45% !important;
+        left : 40% !important;
+    }
 }
 
 /*Mobile*/
@@ -170,6 +175,11 @@ html, body, button, input {
     .sectionContentlink{
         margin-top: 10%;
         font-size: 1em;
+    }
+    
+    .video-react-big-play-button{
+        top : 35% !important;
+        left : 25% !important;
     }
 }
 
