@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b359b56f64730524ef95af2e253fc31c",
+    "revision": "4191a9d11f84362d2598222c6bfdf2b3",
     "url": "/KFU_war_frontend/index.html"
   },
   {
-    "revision": "7c8c10bf147dfdee9112",
+    "revision": "36d2e3370ab680e3e33f",
     "url": "/KFU_war_frontend/static/css/2.a33d7f97.chunk.css"
   },
   {
-    "revision": "cd60118925e2327e39c3",
-    "url": "/KFU_war_frontend/static/css/main.6c26ddcd.chunk.css"
+    "revision": "902b1dc20a37f7e1b4fa",
+    "url": "/KFU_war_frontend/static/css/main.3564961a.chunk.css"
   },
   {
-    "revision": "7c8c10bf147dfdee9112",
-    "url": "/KFU_war_frontend/static/js/2.acc7e315.chunk.js"
+    "revision": "36d2e3370ab680e3e33f",
+    "url": "/KFU_war_frontend/static/js/2.82054ae5.chunk.js"
   },
   {
     "revision": "b994d04638acca06b6a227f54dab2ddf",
-    "url": "/KFU_war_frontend/static/js/2.acc7e315.chunk.js.LICENSE.txt"
+    "url": "/KFU_war_frontend/static/js/2.82054ae5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd60118925e2327e39c3",
-    "url": "/KFU_war_frontend/static/js/main.7a26a0e1.chunk.js"
+    "revision": "902b1dc20a37f7e1b4fa",
+    "url": "/KFU_war_frontend/static/js/main.5c808d49.chunk.js"
   },
   {
     "revision": "b345f307c146efbc8f4b",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KFU_war_frontend/static/media/ProductSansRegular.eae9c18c.ttf"
   },
   {
+    "revision": "eba322cd7d872c30583541e35a722cd0",
+    "url": "/KFU_war_frontend/static/media/kfu.eba322cd.jpg"
+  },
+  {
     "revision": "3079cb9001b225070e19234128b57dc5",
     "url": "/KFU_war_frontend/static/media/kfu_icon.3079cb90.png"
   },
@@ -68,8 +72,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KFU_war_frontend/static/media/people.d3f200e0.png"
   },
   {
+    "revision": "f108b48a3b8263e369e98062f76b4ade",
+    "url": "/KFU_war_frontend/static/media/people_orig.f108b48a.png"
+  },
+  {
     "revision": "d5cfa8b039a0575674f188323f071f9b",
     "url": "/KFU_war_frontend/static/media/science.d5cfa8b0.png"
+  },
+  {
+    "revision": "f4e46a0c8c0617404a68480c9291add1",
+    "url": "/KFU_war_frontend/static/media/science_orig.f4e46a0c.jpeg"
   },
   {
     "revision": "c80a0ae244df0b727a023a8fb0c64b77",
