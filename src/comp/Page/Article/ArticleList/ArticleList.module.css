@@ -1,0 +1,16 @@
+.list{
+
+}
+
+.categoryName{
+
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    color: white;
+}

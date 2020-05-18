@@ -7,9 +7,48 @@
 }
 
 .content{
-
+    width: 100vw;
+    height: 50vh;
 }
 
-.categories{
+.desc_wrapper{
+    width: 60vw;
+    height: 100%;
+    margin: 10% 20vw;
+}
 
+.main{
+    color: white;
+    background-color: #992934;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 5vw 0vw;
+}
+
+.aside{
+    width: 22vw;
+    margin-left: 3vw;
+}
+
+.article{
+    width: 75vw;
+    min-height: 80vh;
+}
+
+.article{
+    background-color: white;
+    color: black;
+}
+
+.main:after{
+    position: absolute;
+    background-color: #992934;
+    width: 350%;
+    top: -35%;
+    transform: rotate(-2.5deg);
+    z-index: -1;
+    height: 450%;
+    left: 0;
+    content: '';
 }
