@@ -3,6 +3,7 @@ import classes from "./Page.module.css"
 import Banner from "./Banner/Banner";
 import {Route} from "react-router-dom";
 import ArticleContainer from "./Article/ArticleContainer";
+import Search from "./Search/Search";
 
 let Page = (props) => {
     return (
@@ -15,7 +16,7 @@ let Page = (props) => {
             </section>
             <main className={classes.main}>
                 <aside className={classes.aside}>
-                    <input type={"search"} onChange={props.filter}/>
+                    <Search filter={props.filter}/>
                     {props.list}
                     {props.list2}
                 </aside>

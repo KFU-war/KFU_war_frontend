@@ -1,0 +1,38 @@
+.searchWrapper{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+}
+
+.glass{
+    border-color: transparent;
+    position: absolute;
+    width: 10%;
+    height: 50%;
+    top: 5%;
+    right: 5%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+/*Laptop*/
+@media all and (max-width: 1690px) {
+
+}
+
+/*iPad Pro*/
+@media all and (max-width: 1280px) {
+
+}
+
+/*iPad*/
+@media all and (max-width: 980px) {
+
+}
+
+/*Mobile*/
+@media all and (max-width: 480px) {
+
+}

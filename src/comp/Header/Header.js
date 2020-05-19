@@ -15,6 +15,7 @@ let Header = (props) => {
     }
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
+        handleScroll();
     })
     return (
         <>

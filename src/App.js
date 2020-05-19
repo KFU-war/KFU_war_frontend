@@ -11,13 +11,17 @@ import CategoryEditContainer from "./comp/AdminPanel/Categories/Edit/CategoryEdi
 import {RedactorContainer} from "./comp/AdminPanel/Redactor/RedactorContainer";
 import GlobalStyle from "./GlobalStyle";
 import Footer from "./comp/Main/Footer/Footer";
+import SourceContainer from "./comp/SourceContainer/SourceContainer";
 
 function App() {
-    let pages = ["/people", "/time", "/science"].map((link) => {
+    let pages = ["/people", "/time", "/science", "/sources"].map((link) => {
         return (
             <Route path={link}>
                 <Header name={link}/>
-                <PageContainer link={link}/>
+                {link !== "/sources"
+                    ? <SourceContainer/>
+                    :<PageContainer link={link}/>
+                }
                 <Footer/>
             </Route>
         );

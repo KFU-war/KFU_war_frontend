@@ -112,8 +112,8 @@ let PageContainer = (props) => {
     let [list, setList] = useState(prop.list);
     let [list2, setList2] = useState(prop.list2);
 
-    let filter = (e) => {
-        let text = e.currentTarget.value;
+    let filter = (ref) => {
+        let text = ref.current.value;
         setList(renderList(
             prop.items.filter((elem) => elem.heading.toLowerCase().includes(text)),
             "Cотрудники"
