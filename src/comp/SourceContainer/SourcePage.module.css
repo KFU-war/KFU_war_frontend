@@ -1,17 +1,30 @@
 .Sources{
-
+    width: 40vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10vh;
 }
 
 .SourcesItem{
-
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
 }
 
 .SourcesItemWrapper{
-
+    margin: 5vh 0px;
 }
 
 .SourcesItemText{
 
+}
+
+.SourcesItemImg{
+    margin-right: 20px;
 }
 
 .heading{

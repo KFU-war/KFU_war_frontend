@@ -18,7 +18,7 @@ function App() {
         return (
             <Route path={link}>
                 <Header name={link}/>
-                {link !== "/sources"
+                {link === "/sources"
                     ? <SourceContainer/>
                     :<PageContainer link={link}/>
                 }

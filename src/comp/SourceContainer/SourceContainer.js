@@ -1,39 +1,40 @@
 import React from "react";
 import SourcePage from "./SourcePage";
 import SourcesItem from "./SourcesItem";
+import img from "../../assets/img/kfu_icon.png";
 
 let SourceContainer = (props) => {
     let list = [
         {
-            src : "",
+            src : img,
             alt : "",
             link : "#",
             heading : "heading 1",
             desc : "desc 1"
         },
         {
-            src : "",
+            src : img,
             alt : "",
             link : "#",
             heading : "heading 2",
             desc : "desc 2"
         },
         {
-            src : "",
+            src : img,
             alt : "",
             link : "#",
             heading : "heading 3",
             desc : "desc 3"
         },
         {
-            src : "",
+            src : img,
             alt : "",
             link : "#",
             heading : "heading 4",
             desc : "desc 4"
         },
         {
-            src : "",
+            src : img,
             alt : "",
             link : "#",
             heading : "heading 5",
