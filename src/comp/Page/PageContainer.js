@@ -114,15 +114,16 @@ let PageContainer = (props) => {
 
     let filter = (e) => {
         let text = e.currentTarget.value;
-        debugger;
         setList(renderList(
             prop.items.filter((elem) => elem.heading.toLowerCase().includes(text)),
             "Cотрудники"
         ));
-        setList2(renderList(
-            prop.items2.filter((elem) => elem.heading.toLowerCase().includes(text)),
-            "Студенты"
-        ));
+        if (prop.items2){
+            setList2(renderList(
+                prop.items2.filter((elem) => elem.heading.toLowerCase().includes(text)),
+                "Студенты"
+            ));
+        }
     }
 
     return(
